@@ -1,5 +1,3 @@
-
-
 .header {
   width: 100%;
   display: flex;
@@ -17,13 +15,15 @@
   }
 }
 
-
 .nav {
   height: 60px;
   margin-right: 50px;
 
   &__list {
     height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     display: flex;
     list-style-type: none;
   }
